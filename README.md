@@ -2,9 +2,9 @@
 
 # BenchBot Batches
 
-BenchBot batches is a set of environment lists used in both development, and challenge evaluation. The files allow easy replication of a static list of environments, which can be used with:
-- the `-E` argument of the `benchbot_batch` script (from the [BenchBot software stack](https://github.com/RoboticVisionOrg/benchbot)) when autonomously running a submission through multiple environments,
-- evaluation to require a certain set of environments (TODO: flag to specify a required environments not yet released).
+BenchBot batches is a collection of environment lists used in both development, and challenge evaluation. The files allow easy execution of a static environment list, and are supported in the [BenchBot software stack](https://github.com/RoboticVisionOrg/benchbot) through:
+- the `-E|--envs-file` arguments of the `benchbot_batch` script to autonomously run a submission through multiple environments, and
+- the `--required-envs-file` argument of the `benchbot_eval` script to make evaluation require results for a certain set of environments.
 
 ## Descriptions for each batch
 
